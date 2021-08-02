@@ -1,6 +1,63 @@
 <html>
     <body>
         <h2>Reflex agent</h2>
+        <h3>Cantidad de pasadas por estados</h3>
+
+            <style type="text/css">
+                .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+                .tg td{background-color:#fdf6e3;border-color:#93a1a1;border-style:solid;border-width:1px;color:#002b36;
+                  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+                .tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:1px;color:#fdf6e3;
+                  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                .tg .tg-baqh{text-align:center;vertical-align:top}
+            </style>
+            <table class="tg">
+                <thead>
+                    <tr>
+                    <th class="tg-baqh">Estado 1</th>
+                    <th class="tg-baqh">Estado 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="tg-baqh" id="estado1">0</td>
+                    <td class="tg-baqh" id="estado2">0</td>
+                    </tr>
+                    <tr>
+                    <th class="tg-baqh">Estado 3</th>
+                    <th class="tg-baqh">Estado 4</th>
+                    </tr>
+                    <tr>
+                    <td class="tg-baqh" id="estado3">0</td>
+                    <td class="tg-baqh" id="estado4">0</td>
+                    </tr>
+                    <tr>
+                    <th class="tg-baqh">Estado 5</th>
+                    <th class="tg-baqh">Estado 6</th>
+                    </tr>
+                    <tr>
+                    <td class="tg-baqh" id="estado5">0</td>
+                    <td class="tg-baqh" id="estado6">0</td>
+                    </tr>
+                    <tr>
+                    <th class="tg-baqh">Estado 7</th>
+                    <th class="tg-baqh">Estado 8</th>
+                    </tr>
+                    <tr>
+                    <td class="tg-baqh" id="estado7">0</td>
+                    <td class="tg-baqh" id="estado8">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+                <div id="terminado" style="display: none;">
+                    <span style="background-color: #04AA6D;
+                                  color: white;
+                                  padding: 8px;"s> Terminado!!</span>
+                </div>
+            <br> 
+
         <p id="log"></p>
         <script type="text/javascript" src="reflex_agent.js"></script>
     </body>
